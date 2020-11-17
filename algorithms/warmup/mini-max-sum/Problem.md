@@ -1,1 +1,0 @@
-Link to problem: https://www.hackerrank.com/challenges/mini-max-sum/problem
