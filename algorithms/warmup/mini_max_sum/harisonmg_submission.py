@@ -9,10 +9,10 @@ import sys
 
 # Complete the miniMaxSum function below.
 def miniMaxSum(arr):
-    sorted_arr = sorted(arr)
-    min_sum = sum(sorted_arr[:-1])
-    max_sum = sum(sorted_arr[1:])
-    print('{} {}'.format(min_sum, max_sum))
+    total = sum(arr)
+    minimum = min(arr)
+    maximum = max(arr)
+    print(total - maximum, total - minimum)
 
 
 if __name__ == '__main__':
