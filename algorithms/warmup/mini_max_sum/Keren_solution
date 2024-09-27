@@ -1,0 +1,21 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the miniMaxSum function below.
+def miniMaxSum(arr):
+    total = sum(arr) # sum up all the integers in the array
+    sums = [total - arr[i] for i in range(len(arr))] # get the sum of only 4 of the integers
+    
+    print(min(sums), max(sums))
+    
+    
+
+if __name__ == '__main__':
+    arr = list(map(int, input().rstrip().split()))
+
+    miniMaxSum(arr)
